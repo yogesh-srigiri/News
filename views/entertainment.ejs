@@ -1,0 +1,25 @@
+<%- include partials/header.ejs -%>
+      
+
+    
+    
+    <% Entertainment.forEach(function(i){ %>
+        <div class="container main">   
+                <div class="container sub">        
+        <h2><%= i.author %></h2>
+        <h5><%= i.title %></h5>
+        <img class="image" src="<%= i.urlToImage %> " alt="images">
+        <a href="<%= i.url %>"><%= i.url %></a>     
+        <h3><%= i.content %></h3>
+       <strong>  Published On:  <%= i.publishedAt %> </strong>   
+        
+  
+    </div> 
+</div>
+    
+<%  }) %>
+
+
+
+
+<%- include partials/footer.ejs -%>

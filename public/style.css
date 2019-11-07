@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    background-color: #eafbea;
+
+}
+
+.main{
+    display: inline-block;
+    padding: 3%;
+    padding-top: 6%;
+    
+}
+.sub{
+    border: solid;
+    border-width: 1px;
+    border-radius: 25px;
+}
+
+.image{
+    border-radius: 45px;
+    position: relative;
+    float: left;
+    width: 150px; 
+    height: 150px;
+}
+h2{
+    font-family: 'Bitter', serif;
+}
+h5{
+    font-family: 'Montserrat', sans-serif;
+}
+.published{
+    color: #5f6769;
+}
+a:hover{
+   text-decoration-line: none;
+}
+
+@media(max-width:758px){
+    .image{
+        position: relative;
+        margin: 0 35%;
+
+}
+.main{
+    padding-top: 10%;
+}
+}
